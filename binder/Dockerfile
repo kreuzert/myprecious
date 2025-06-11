@@ -1,5 +1,6 @@
 FROM jupyter/base-notebook
 
+COPY . ${HOME}
 USER root
 
 # Install system packages: curl, build tools, and Node.js
